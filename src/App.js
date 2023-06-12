@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
+import Intro from "./components/introduction/Intro";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
+
+
+  const [mode,setmode]=useState('light');
+  const togglemode=()=>{
+    if(mode==='light'){
+      setmode('dark');
+      document.body.style.backgroundColor='#080012';
+    }
+    else{
+      setmode('light');
+      document.body.style.backgroundColor='white';
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <> 
+  <div>
+    <Navbar mode={mode} togglemode={togglemode}/>
+    <Intro mode={mode}/>
+    <About mode={mode}/>
+    <Contact mode={mode}/>
+  </div>
+  </>
   );
 }
 
