@@ -3,6 +3,8 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/introduction/Intro";
 import Navbar from "./components/navbar/Navbar";
+import Myskills from './components/myskills/Myskills';
+
 
 function App() {
 
@@ -24,6 +26,7 @@ function App() {
     <Navbar mode={mode} togglemode={togglemode}/>
     <Intro mode={mode}/>
     <About mode={mode}/>
+    <Myskills mode={mode}/>
     <Contact mode={mode}/>
   </div>
   </>

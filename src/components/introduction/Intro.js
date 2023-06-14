@@ -2,7 +2,6 @@ import React from 'react'
 import './Intro.css'
 // import Me from "../../img/Me.png"
 import Me from "../../img/hello.png"
-// #6e6974
 const Intro = (props) => {
   return (
     <div className='in'>

@@ -1,6 +1,5 @@
 import React from 'react'
 import "./about.css"
-// import Img2 from "../../img/img-2.png"
 import Img3 from "../../img/img3.png"
 
 const About = (props) => {
