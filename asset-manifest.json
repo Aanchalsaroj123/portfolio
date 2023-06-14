@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e28049c2.css",
+    "main.js": "/portfolio/static/js/main.f66cb7a5.js",
+    "static/media/img3.png": "/portfolio/static/media/img3.64c4a8ed93e304cb73ea.png",
+    "static/media/coding2.png": "/portfolio/static/media/coding2.0fe26029d0916e514503.png",
+    "static/media/mail.png": "/portfolio/static/media/mail.c93fbf4e25e922eb559d.png",
+    "static/media/leetcode.png": "/portfolio/static/media/leetcode.c79f333b12595d3eec8f.png",
+    "static/media/Moon.png": "/portfolio/static/media/Moon.2e2d2aa5aae4368b4f8c.png",
+    "static/media/hello.png": "/portfolio/static/media/hello.284c94a544bd4bd2ffe7.png",
+    "static/media/webdev.jpg": "/portfolio/static/media/webdev.2e81b29026e6f58ce429.jpg",
+    "static/media/phone.png": "/portfolio/static/media/phone.c98fb3b64eecd80d2ca1.png",
+    "static/media/github.png": "/portfolio/static/media/github.ba9cb8d57d53e7189c48.png",
+    "static/media/Sun.png": "/portfolio/static/media/Sun.d96db08c5d5b617fd8dd.png",
+    "index.html": "/portfolio/index.html",
+    "main.e28049c2.css.map": "/portfolio/static/css/main.e28049c2.css.map",
+    "main.f66cb7a5.js.map": "/portfolio/static/js/main.f66cb7a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e28049c2.css",
+    "static/js/main.f66cb7a5.js"
+  ]
+}
